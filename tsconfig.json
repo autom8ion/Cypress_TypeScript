@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node", "cypress-plugin-api"],
+    "baseUrl": "./"
+  },
+  "include": ["**/*.ts", "../cypress.config.ts", "cypress/support/e2e.ts"]
+}
